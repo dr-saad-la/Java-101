@@ -1,3 +1,15 @@
+/*****************************************************************************
+ * PROJECT:    Java-101 Comprehensive Programming Course
+ * MODULE:     Introduction to Java Fundamentals
+ * LESSON:     1.1 - Hello World Implementation With Documentation
+ * 
+ * AUTHOR:     Dr. Saad Laouadi, Ph.D.
+ * CREATED:    March 2025
+ * 
+ * Copyright © 2025 Quant Coding Versity. All Rights Reserved.
+ * See LICENSE file for complete terms.
+ *****************************************************************************/
+
 // This is a Java program that prints "Hello world!!!" to the console.
 
 // The 'public' keyword is an access modifier that makes the class accessible by any other class.
@@ -11,7 +23,7 @@ public class HelloWorldDocumented {
     public static void main(String[] args) {
         System.out.println("========================================\n");
         System.out.println("This is a very simple program in Java");
-        
+
         // 'System' is a class from the 'java.lang' package.
         // 'out' is a static member of the 'System' class. It is an instance of 'PrintStream' and represents the standard output stream.
         // 'println' is a method of 'PrintStream' that prints a line of text to the console.
