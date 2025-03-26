@@ -1,15 +1,23 @@
-// =============================================================
-// 		copyright: Dr. Saad Laouadi 2024
-// =============================================================
-// This is one line comment 
+/*****************************************************************************
+ * PROJECT:    JAVA-101 COMPREHENSIVE PROGRAMMING COURSE
+ * MODULE:     INTRODUCTION TO JAVA FUNDAMENTALS
+ * LESSON:     1.2 - COMMENTS AND STRING FORMATTING
+ *
+ * AUTHOR:     DR. SAAD LAOUADI, PH.D.
+ * CREATED:    MARCH 2025
+ *
+ * COPYRIGHT © 2025 DR. SAAD LAOUADI. ALL RIGHTS RESERVED.
+ * SEE LICENSE FILE FOR COMPLETE TERMS.
+ *****************************************************************************/
 
+// This is one line comment
 
 public class CommentDemo {
 	// This is a simple method to create a banner
 
 	/*
-	This is multi-line comment 
-	add here 
+	This is multi-line comment
+	add here
 	add other thing here
 	*/
 
@@ -30,7 +38,7 @@ public class CommentDemo {
 		System.out.println(banner);
 		System.out.println("      Comments in Java             ");
 		System.out.println(banner);
-		
+
 		System.out.println("program run successfully and ended here!");
 		// passAfterEnd(3);
 		addEmptyLineAtEnd(3);

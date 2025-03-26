@@ -1,8 +1,10 @@
+
 /**
  * This is a Java program to demonstrate different types of comments.
  * Comments are important for explaining code, making it easier to read
  * and maintain.
  */
+
 public class CommentJavaCode {
 
     public static void main(String[] args) {
