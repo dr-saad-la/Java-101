@@ -1,10 +1,11 @@
 /*****************************************************************************
  * PROJECT:    Java-101 Comprehensive Programming Course
  * MODULE:     Introduction to Java Fundamentals
- * LESSON:     3.2 - Relational Operators
+ * LESSON:     4.2 - Relational Operators
  *
  * AUTHOR:     Dr. Saad Laouadi, Ph.D.
  * CREATED:    March 2025
+ * UPDATED:    April 2025
  *
  * Copyright © 2025 Dr. Saad Laouadi. All Rights Reserved.
  * See LICENSE file for complete terms.
@@ -16,6 +17,8 @@ public class RelationalOperators {
         int a = 10;
         int b = 20;
         int c = 10;
+
+        displayBanner('*', 72);
 
         System.out.println("RELATIONAL OPERATORS DEMONSTRATION");
         System.out.println("==================================");
@@ -84,5 +87,13 @@ public class RelationalOperators {
         if (a == c) {
             System.out.println("   a equals c - this code executes when condition is true");
         }
+        displayBanner('*', 72);
+    }
+
+    static void displayBanner(char c, int length){
+        for (int i=0; i<length; i++){
+            System.out.print(c);
+        }
+        System.out.println();
     }
 }
