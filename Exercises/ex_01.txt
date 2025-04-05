@@ -1,0 +1,83 @@
+/**
+ * Java Printing Exercises for Beginners
+ *
+ * This file contains 10 exercises for practicing basic printing in Java.
+ * Complete each exercise in a separate file with the appropriate class name.
+ * These exercises only use println() and print() - no variables or other concepts.
+ */
+
+/*
+
+Exercise 1: Basic Hello World
+---------------------------
+Create a Java program that displays the message "Hello, World!" on the screen.
+Class name should be: HelloWorld
+
+Exercise 2: Personal Introduction
+---------------------------
+Create a program that displays your name and two facts about yourself, each on separate lines.
+Class name should be: Introduction
+
+Exercise 3: Print vs Println
+---------------------------
+Write a program that demonstrates the difference between print() and println() by:
+1. Using print() to put two phrases on the same line
+2. Using println() to move to a new line
+3. Adding two more lines with println()
+Class name should be: PrintVsPrintln
+
+Exercise 4: Triangle Pattern
+---------------------------
+Create a program that draws a simple triangle pattern using asterisks (*) like this:
+    *
+   ***
+  *****
+ *******
+*********
+Class name should be: Triangle
+
+Exercise 5: Special Characters
+---------------------------
+Write a program that shows how to print the following special characters:
+1. Quotation marks (")
+2. Backslash (\)
+3. A new line within a single println statement
+4. A tab character within a line
+Class name should be: SpecialCharacters
+
+Exercise 6: Menu Display
+---------------------------
+Create a program that displays a formatted menu with at least 4 options, surrounded
+by a border made of special characters.
+Class name should be: MenuDisplay
+
+Exercise 7: ASCII Art
+---------------------------
+Create a program that draws a simple face or picture using ASCII characters.
+Be creative with your design!
+Class name should be: ASCIIFace
+
+Exercise 8: Name Box
+---------------------------
+Write a program that displays your name (or "STUDENT") in a decorated box.
+Class name should be: NameBox
+
+Exercise 9: Text Animation
+---------------------------
+Create a program that displays a simple "loading" animation by showing
+different frames one after another (each frame is just a println statement).
+Class name should be: TextAnimation
+
+Exercise 10: Pattern Creation
+---------------------------
+Create a program that displays a checkerboard or other repeated pattern.
+Class name should be: Checkerboard
+*/
+
+// Instructions for students:
+// 1. Read each exercise carefully
+// 2. Create a new Java file for each exercise with the specified class name
+// 3. Write code using only System.out.println() and System.out.print()
+// 4. Make sure your output matches the exercise description
+// 5. Save, compile, and run your program to check that it works correctly
+
