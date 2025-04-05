@@ -21,10 +21,12 @@ public class PrimitiveDataTypes {
     }
 
     public static void main(String[] args) {
-        String banner = repeatChar('=', 40);
-        System.out.println(banner);
+        //String banner = repeatChar('=', 40);
+        displayBanner('*', 40);
+        //System.out.println(banner);
         System.out.println("        Data Types in Java               ");
-        System.out.println(banner);
+        //System.out.println(banner);
+        displayBanner('*', 40);
 
         // Primitive Data Types
         byte byteVar = 127;                          // 8-bit signed integer
@@ -47,6 +49,14 @@ public class PrimitiveDataTypes {
         System.out.println("\tboolean: " + booleanVar);
         System.out.println("\tchar: " + charVar);
 
-        System.out.println(banner);
+        //System.out.println(banner);
+        displayBanner('*', 40);
+    }
+
+    public static void displayBanner(char c, int length){
+        for (int i=0; i < length; i++){
+            System.out.print(c);
+        }
+        System.out.println();
     }
 }

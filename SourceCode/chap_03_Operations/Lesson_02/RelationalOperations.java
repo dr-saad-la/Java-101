@@ -5,17 +5,26 @@ public class ArithmeticOperations {
 
         // String text = "Numeric Operations in Java";
         // int width = 52;
-        
+
         // String centeredText = centerText(text, width);
         System.out.println(banner);
         System.out.println(centerText("Numeric Operations in Java", 50));
         System.out.println(banner);
-        
+
         // Declare numeric variables
         int intA = 10;
         int intB = 20;
         double doubleA = 15.5;
         double doubleB = 4.5;
+
+        // Relational Operations
+        System.out.println("\nRelational Operations:");
+        System.out.println("intA == intB = " + (intA == intB));  // Equal to
+        System.out.println("intA != intB = " + (intA != intB));  // Not equal to
+        System.out.println("intA > intB = " + (intA > intB));    // Greater than
+        System.out.println("intA < intB = " + (intA < intB));    // Less than
+        System.out.println("intA >= intB = " + (intA >= intB));  // Greater than or equal to
+        System.out.println("intA <= intB = " + (intA <= intB));  // Less than or equal to
 
         // Bitwise Operations
         System.out.println("\nBitwise Operations:");
@@ -51,11 +60,11 @@ public class ArithmeticOperations {
         if (text.length() >= width) {
             return text;
         }
-        
+
         int padding = width - text.length();
         int paddingLeft = padding / 2;
         int paddingRight = padding - paddingLeft;
-        
+
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < paddingLeft; i++) {
             sb.append(' ');
@@ -64,7 +73,7 @@ public class ArithmeticOperations {
         for (int i = 0; i < paddingRight; i++) {
             sb.append(' ');
         }
-        
+
         return sb.toString();
     }
 }
