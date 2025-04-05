@@ -1,3 +1,15 @@
+/*****************************************************************************
+ * PROJECT:    Java-101 Comprehensive Programming Course
+ * MODULE:     Introduction to Java Fundamentals
+ * LESSON:     2.6 - Type Casting in Java
+ *
+ * AUTHOR:     Dr. Saad Laouadi, Ph.D.
+ * CREATED:    April 2025
+ *
+ * Copyright © 2025 Dr. Saad Laouadi. All Rights Reserved.
+ * See LICENSE file for complete terms.
+ *****************************************************************************/
+
 public class ArithmeticOperations {
 
     public static void main(String[] args) {
