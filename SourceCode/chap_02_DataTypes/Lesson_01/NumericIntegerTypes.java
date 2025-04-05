@@ -1,7 +1,7 @@
 /*****************************************************************************
  * PROJECT:    Java-101 Comprehensive Programming Course
  * MODULE:     Introduction to Java Fundamentals
- * LESSON:     1.3.1 - Integer Numeric Data Types
+ * LESSON:     2.1 - Integer Numeric Data Types
  *
  * AUTHOR:     Dr. Saad Laouadi, Ph.D.
  * created:    April 2025
