@@ -18,7 +18,7 @@ public class LogicalOperators {
         int a = 10;
         int b = 20;
 
-        displayBanner('*', 72);
+        displayBanne('*', 72);
         System.out.println("LOGICAL OPERATORS DEMONSTRATION");
         System.out.println("===============================");
         System.out.println("Working with variables: p = " + p + ", q = " + q);
