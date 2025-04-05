@@ -1,10 +1,11 @@
 /*****************************************************************************
  * PROJECT:    Java-101 Comprehensive Programming Course
  * MODULE:     Introduction to Java Fundamentals
- * LESSON:     2.1 - Arithmetic Operators
+ * LESSON:     4.1 - Arithmetic Operators
  *
  * AUTHOR:     Dr. Saad Laouadi, Ph.D.
  * CREATED:    March 2025
+ * Updated:   April 2025
  *
  * Copyright © 2025 Dr. Saad Laouadi. All Rights Reserved.
  * See LICENSE file for complete terms.
@@ -16,6 +17,7 @@ public class ArithmeticOperators {
         int a = 10;
         int b = 3;
 
+        displayBanner('*', 62);
         System.out.println("ARITHMETIC OPERATORS DEMONSTRATION");
         System.out.println("==================================");
         System.out.println("Working with variables: a = " + a + ", b = " + b);
@@ -90,5 +92,12 @@ public class ArithmeticOperators {
         System.out.println("\nOperator Precedence:");
         System.out.println("   10 + 20 / 5 = " + (10 + 20 / 5) + " (division happens before addition)");
         System.out.println("   (10 + 20) / 5 = " + ((10 + 20) / 5) + " (parentheses override default precedence)");
+        displayBanner('*', 62);
+    }
+    static void displayBanner(char c, int length){
+        for (int i=0; i < length; i++){
+            System.out.print(c);
+        }
+        System.out.println();
     }
 }
