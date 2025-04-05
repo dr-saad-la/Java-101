@@ -5,12 +5,12 @@ public class ArithmeticOperations {
 
         // String text = "Numeric Operations in Java";
         // int width = 52;
-        
+
         // String centeredText = centerText(text, width);
         System.out.println(banner);
         System.out.println(centerText("Numeric Operations in Java", 50));
         System.out.println(banner);
-        
+
         // Declare numeric variables
         int intA = 10;
         int intB = 20;
@@ -75,11 +75,11 @@ public class ArithmeticOperations {
         if (text.length() >= width) {
             return text;
         }
-        
+
         int padding = width - text.length();
         int paddingLeft = padding / 2;
         int paddingRight = padding - paddingLeft;
-        
+
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < paddingLeft; i++) {
             sb.append(' ');
@@ -88,7 +88,7 @@ public class ArithmeticOperations {
         for (int i = 0; i < paddingRight; i++) {
             sb.append(' ');
         }
-        
+
         return sb.toString();
     }
 }
