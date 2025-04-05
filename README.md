@@ -2,7 +2,9 @@
 # Java Programming Course
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Java Version](https://img.shields.io/badge/Java-17%2B-blue)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+
+
+[![Java Version](https://img.shields.io/badge/java-21%2B-blue)](https://www.oracle.com/java/technologies/downloads/#java21)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 A comprehensive course designed to take learners from Java fundamentals to advanced concepts and real-world applications.
@@ -105,7 +107,7 @@ Throughout the course, you'll work on several hands-on projects:
 1. **Console-based Task Manager**
    - Practice core Java concepts
    - Implement basic file I/O
-   
+
 2. **Library Management System**
    - Apply OOP principles
    - Work with collections
