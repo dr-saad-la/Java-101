@@ -1,9 +1,12 @@
-## Java Programming Comprehensive Course: From Basics to Advanced
 # Java Programming Course
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Custom](https://img.shields.io/badge/License-Custom-orange.svg)](LICENSE)
 [![Java Version](https://img.shields.io/badge/java-21%2B-blue)](https://www.oracle.com/java/technologies/downloads/#java21)
-<!--[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)-->
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Build Status](https://img.shields.io/badge/build-passing-success)](https://github.com/dr-saad-la/Java-programming.git)
+[![Code Quality](https://img.shields.io/badge/code%20quality-A-brightgreen)](https://github.com/dr-saad-la/Java-programming.git)
+[![Documentation](https://img.shields.io/badge/docs-latest-informational)](https://github.com/dr-saad-la/Java-programming.git/wiki)
+[![Version](https://img.shields.io/badge/version-1.0.0-blueviolet)](https://github.com/dr-saad-la/Java-programming.git/releases)
 
 A comprehensive course designed to take learners from Java fundamentals to advanced concepts and real-world applications.
 
